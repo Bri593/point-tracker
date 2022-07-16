@@ -1,0 +1,55 @@
+.root {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.appHeader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.appLink {
+  color: #61dafb;
+}
+
+.input {
+  height: 40px;
+  font-size: 18px;
+}
+
+.formList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+}
+
+.remove {
+  color: rgb(97, 48, 75);
+  cursor: pointer;
+  height: 100%;
+}
+
+.add {
+  color: rgb(20, 52, 43);
+  cursor: pointer;
+}
+
+.formList li:not(.formActions) {
+  padding: 8px 0;
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.formActions {
+  display: flex;
+  flex-direction: column;
+}
