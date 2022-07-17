@@ -5,24 +5,11 @@
   justify-content: center;
 }
 
-.appHeader {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.appLink {
-  color: #61dafb;
-}
-
 .input {
   height: 40px;
   font-size: 18px;
+  background-repeat:no-repeat;
+  border: none;
 }
 
 .formList {
@@ -33,7 +20,7 @@
 }
 
 .remove {
-  color: rgb(97, 48, 75);
+  color: rgb(120, 1, 22);
   cursor: pointer;
   height: 100%;
 }
@@ -41,6 +28,15 @@
 .add {
   color: rgb(20, 52, 43);
   cursor: pointer;
+}
+
+.submit {
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  color: rgb(20, 52, 43);
+  cursor: pointer;
+
 }
 
 .formList li:not(.formActions) {
