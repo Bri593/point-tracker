@@ -17,4 +17,5 @@ const GameTracker = () => {
     </>
   );
 };
+
 export default GameTracker;
