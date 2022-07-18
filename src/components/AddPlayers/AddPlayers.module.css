@@ -19,33 +19,27 @@
   min-width: 320px;
 }
 
-.remove {
-  color: rgb(120, 1, 22);
-  cursor: pointer;
-  height: 100%;
-}
-
-.add {
+.iconButton, .remove {
   color: rgb(20, 52, 43);
   cursor: pointer;
-}
-
-.submit {
   background-color: transparent;
   background-repeat:no-repeat;
-  border: none;
-  color: rgb(20, 52, 43);
-  cursor: pointer;
-
+  border: 2px rgb(20, 52, 43) solid;
 }
 
+.remove {
+  color: rgb(120, 1, 22);
+  border: 2px rgb(120, 1, 22) solid;
+}
 .formList li:not(.formActions) {
   padding: 8px 0;
   display: grid;
   grid-template-columns: 80% 20%;
+  gap: 8px;
 }
 
 .formActions {
   display: flex;
   flex-direction: column;
+  gap: 8px;
 }

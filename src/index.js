@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AddPlayers from './views/AddPlayers';
+import GameTracker from './views/GameTracker';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <AddPlayers />
+    <GameTracker />
   </React.StrictMode>
 );
 

@@ -21,7 +21,10 @@
             "error",
             { "singleQuote": true, "endOfline": "auto" }
           ],
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-uses-vars": "warn",
+        "no-unused-vars": "warn",
+        "react/prop-types": "off"
     },
     "ignorePatterns": [
         "node_modules",
