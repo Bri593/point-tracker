@@ -5,7 +5,7 @@ import Scoreboard from '../components/Scoreboard/Scoreboard';
 
 const GameTracker = () => {
   const [formData, setFormData] = useState(null);
-  console.log(formData);
+  console.log(formData, 'fasfafasf');
 
   return (
     <>
